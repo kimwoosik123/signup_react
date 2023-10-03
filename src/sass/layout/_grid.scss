@@ -1,0 +1,20 @@
+#wrap{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: "header"
+                         "home"
+                         "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+#header{
+    grid-area: header;
+}
+#home{
+    grid-area: home;
+}
+#footer{
+    grid-area: footer;
+}

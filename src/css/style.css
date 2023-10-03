@@ -1,0 +1,147 @@
+html,
+head,
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    font-family: dotum, sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #666;
+
+}
+
+.button {
+    cursor: pointer;
+}
+
+#wrap {
+    display: block;
+    margin: 0px 151px 0px 151px;
+    padding: 0px 36px 0px 36px;
+    background-color: bisque;
+    width: 460px;
+    height: 505px;
+
+}
+
+#Containner {
+    position: relative;
+
+}
+
+#main-logo {
+    padding: 47px 0px 0px;
+    text-align: center;
+    width: 460px;
+
+}
+
+.main-lmg {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+#text-input {
+    width: 460px;
+    height: 125px;
+
+}
+
+.email-input {
+    width: 414px;
+    height: 48px;
+    padding: 16px 0px 12px;
+    margin-top: 13px;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+.hold-input {
+    width: 414px;
+    height: 48px;
+    padding: 16px 0px 12px;
+    margin-top: 13px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.email-input-icon {
+    position: relative;
+    float: left;
+    display: inline;
+    width: 44.67px;
+    height: 48px;
+    margin-top: 13px;
+    border-right: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.scrite-email {
+    background: url("https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg");
+    background-size: 148px 148px;
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    margin-left: -10px;
+    margin-top: 8px;
+    padding-left: 19px;
+    background-position: -1px -1px;
+    position: absolute;
+    left: 50%;
+    top: 16%;
+
+}
+
+.hold-input-icon {
+    position: relative;
+    float: left;
+    display: inline;
+    width: 44.67px;
+    height: 48px;
+    margin-top: 13px;
+    border-right: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+.scrite-hold {
+    background-image: url("https://img1a.coupangcdn.com/image/static/login/sprite-member.20171115.svg");
+    background-size: 148px 148px;
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    margin-left: 4px;
+    margin-top: -12px;
+    background-position: -21px -1px;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    background-repeat: no-repeat;
+
+}
+
+#find-search {
+    width: 183px;
+    height: 32px;
+
+}
+
+.scrite-find-search {
+    background-image: url("https://static.coupangcdn.com/image/coupang/icon/xhdpi/arrow-right-blue.png");
+    display: inline-block;
+    width: 8px;
+    height: 29px;
+
+    padding-left: 9px;
+    vertical-align: middle;
+    background-position: -100px 2px;
+    text-decoration-line: none;
+    position: absolute;
+}
+
+.join-button {
+    display: block;
+}
