@@ -1,0 +1,53 @@
+#signupForm{
+    .signup__list{
+        .signup__item{
+            position: relative;
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
+            label{
+                display: block;
+                position: absolute;
+                top: 1rem;
+                left: 1rem;
+                opacity: 0.7;
+                font-size: 1rem;
+                transition: all 0.3s ease-in-out;
+                &.active{
+                    transform: translateY(-1rem);
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                    color: #000;
+                }
+                &::after{
+                    content: "*";
+                    color: tomato;
+                }
+            }
+            input{
+                width: 20rem;
+                height: 3rem;
+                border: 1px solid $ivoryColor;
+                outline: 1px solid transparent;
+                outline-offset: -1px;
+                padding-left: 1rem;
+                &:focus{
+                    outline: 1px solid #666;
+                }
+            }
+        }
+    }
+    .btn__box{
+        display: flex;
+        margin-top: 1rem;
+        >button{
+            width: 100%;
+            border-radius: 0;
+            background-color: $ivoryColor;
+            &:hover{
+                background-color: #fff;
+                color: #000;
+            }
+        }
+    }
+}
